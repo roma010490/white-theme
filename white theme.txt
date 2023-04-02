@@ -1,0 +1,14 @@
+local customtheme = [[
+
+    {
+        "BgColor": "#FFFFFF",
+        "BtnColor": "#FFFFFF",
+        "MenuColor": "#FFFFFF",
+        "SettingInputColor": "#FFFFFF" 
+    }
+    
+]]
+
+writefile("theme.delta", customtheme)
+wait()
+game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
